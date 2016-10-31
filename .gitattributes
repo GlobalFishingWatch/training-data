@@ -1,0 +1,13 @@
+alex.npz filter=lfs diff=lfs merge=lfs -text
+davidk_longliner_classified_tracks.npz filter=lfs diff=lfs merge=lfs -text
+davidk_purse_seine_classified_tracks.npz filter=lfs diff=lfs merge=lfs -text
+davidk_trawler_classified_tracks.npz filter=lfs diff=lfs merge=lfs -text
+kristina_longliner.alex-scores.npz filter=lfs diff=lfs merge=lfs -text
+kristina_longliner.kristina-scores.npz filter=lfs diff=lfs merge=lfs -text
+kristina_longliner.npz filter=lfs diff=lfs merge=lfs -text
+kristina_ps.npz filter=lfs diff=lfs merge=lfs -text
+kristina_trawl.npz filter=lfs diff=lfs merge=lfs -text
+transit_1.npz filter=lfs diff=lfs merge=lfs -text
+transit_2.npz filter=lfs diff=lfs merge=lfs -text
+transits_new.npz filter=lfs diff=lfs merge=lfs -text
+transits_slow.npz filter=lfs diff=lfs merge=lfs -text
