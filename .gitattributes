@@ -11,3 +11,12 @@ transit_1.npz filter=lfs diff=lfs merge=lfs -text
 transit_2.npz filter=lfs diff=lfs merge=lfs -text
 transits_new.npz filter=lfs diff=lfs merge=lfs -text
 transits_slow.npz filter=lfs diff=lfs merge=lfs -text
+time-points/alex_crowd_sourced.npz filter=lfs diff=lfs merge=lfs -text
+time-points/false_positives.npz filter=lfs diff=lfs merge=lfs -text
+time-points/kristina_longliner.npz filter=lfs diff=lfs merge=lfs -text
+time-points/kristina_ps.npz filter=lfs diff=lfs merge=lfs -text
+time-points/kristina_trawl.npz filter=lfs diff=lfs merge=lfs -text
+time-points/transit_1.npz filter=lfs diff=lfs merge=lfs -text
+time-points/transit_2.npz filter=lfs diff=lfs merge=lfs -text
+time-points/transits_new.npz filter=lfs diff=lfs merge=lfs -text
+time-points/transits_slow.npz filter=lfs diff=lfs merge=lfs -text
