@@ -14,6 +14,10 @@ combined for some applications. This is done using a tool included in
 the repo:
 
     ./prepare.sh
+    
+Some of the data is stored using [git-lfs](https://help.github.com/articles/installing-git-large-file-storage/),
+so you'll need to install `git-lfs` before cloning the repo. This also means that downloading a zipped tarball
+of the directory is unlikely to work.
 
 # LICENSE
 
