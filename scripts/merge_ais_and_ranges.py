@@ -6,6 +6,7 @@
 python scripts/merge_ais_and_ranges.py --dest-path data/time-points --point-source-path data/time-points --source-path data/time-ranges/alex_crowd_sourced.csv 
 
 """
+from __future__ import print_function
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
@@ -43,7 +44,7 @@ if __name__ == "__main__":
 
     for range_path in args.source_paths:
         name = os.path.splitext(os.path.basename(range_path))[0]
-        print "Merging %s..." % (name,)
+        print("Merging %s..." % (name,))
 
         ranges = np.recfromcsv(range_path, delimiter=',',filling_values=np.nan, converters={'start_time': _parse, 'end_time': _parse}, dtype='float')
 
