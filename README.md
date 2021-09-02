@@ -4,7 +4,7 @@ This is a training dataset for machine learning solutions for detecting fishing 
 
 # Usage and data formats
 
-We use the data as training data for our [vessel scoring library](https://github.com/GlobalFishingWatch/vessel-scoring), and you might find it usefull to check out that code to get started with the dataset.
+We use the data as training data for our [vessel scoring library](https://github.com/GlobalFishingWatch/vessel-scoring), and you might find it useful to check out that code to get started with the dataset.
 
 The data is stored in [numpy format](http://www.numpy.org/). We recommend exploring the data using the jupyter/numpy/scipy/scikit-learn/tensorflow stack.
 
